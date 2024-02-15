@@ -1,0 +1,26 @@
+[
+  {
+    "name": "CodeCraft Academy",
+    "description": "An online platform offering coding courses and projects for beginners to advanced programmers, covering languages like Python, JavaScript, and more."
+  },
+  {
+    "name": "TechConnect Forum",
+    "description": "A community-driven forum for tech enthusiasts to discuss the latest trends, share insights, and seek advice on programming, hardware, and software development."
+  },
+  {
+    "name": "VR Innovations Hub",
+    "description": "A virtual reality hub that explores cutting-edge VR technologies, offering immersive experiences, tutorials, and discussions on the future of virtual reality."
+  },
+  {
+    "name": "DataGuardian",
+    "description": "A comprehensive data security suite that provides encryption, authentication, and monitoring tools to safeguard sensitive information across platforms and devices."
+  },
+  {
+    "name": "TechGourmet",
+    "description": "An AI-powered recipe app designed for tech-savvy foodies, offering personalized recipes based on dietary preferences, cooking skill level, and available ingredients."
+  },
+  {
+    "name": "RoboRacers League",
+    "description": "An online competitive robotics league where participants design, build, and program autonomous robots to compete in challenging racing circuits and obstacle courses."
+  }
+]

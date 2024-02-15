@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/homepage.css">
+    <title>Your Tech Blog</title>
+</head>
+<body>
+    <div class="container">
+       
+        <main>
+            <section class="featured-posts">
+                {{#each blogs as |blog| }}
+                <div class="blog row mb-4">
+                    <div class="col-md-5">
+                        
+                        <h2>
+                            <a href="/blog/{{blog.id}}">{{blog.name}}</a>
+                        </h2>
+                        <p>Created by {{blog.user.name}} on {{format_date blog.date_created}}</p>
+                    </div>
+                    <div class="col-md-7">
+                        <p>
+                            {{blog.description}}
+                        </p>
+                    </div>
+                </div>
+                {{/each}}
+            </section>
+        </main>
+    </div>
+</body>
+</html>
